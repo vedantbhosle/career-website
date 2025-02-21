@@ -15,3 +15,7 @@ author = 27014216
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python3 app.py"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
